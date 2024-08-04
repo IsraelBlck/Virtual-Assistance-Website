@@ -80,7 +80,7 @@ export default function Home() {
                 fontFamily="Black Ops One"
                 fontSize={["2.5rem", "3.7rem"]}
               >
-                Eric Onoja
+                Eric Israel
               </Heading>
 
               <Heading
@@ -88,7 +88,7 @@ export default function Home() {
                 fontSize={["2.5rem", "3.7rem"]}
                 ml={[null, "1rem"]}
               >
-                Vaheed
+                Onoja
               </Heading>
             </Flex>
           </RevealWrapper>

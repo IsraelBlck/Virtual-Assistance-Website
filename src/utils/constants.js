@@ -54,19 +54,19 @@ export const links = [
 
 export const interestsData = [
   {
-    interest: "Software Engineering",
-    icon: BsCodeSlash,
+    interest: "Research Skill",
+    icon: CgTrending,
   },
   {
-    interest: "Tech Blog",
-    icon: FaHashnode,
+    interest: "Editing",
+    icon: MdEditDocument,
   },
   {
-    interest: "Internet of Things",
-    icon: FcElectronics,
+    interest: "Graphic Designing",
+    icon: SiAdobephotoshop,
   },
   {
-    interest: "Market Research",
+    interest: "Copywriting",
     icon: GiArchiveResearch,
   },
   {
