@@ -29,18 +29,21 @@ import {
   SiGnubash,
   SiNextdotjs,
 } from "react-icons/si";
+import { FaChartLine } from "react-icons/fa";
+import { MdEditDocument } from "react-icons/md";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SlSpeech } from "react-icons/sl";
+import { TbSeo } from "react-icons/tb";
 import { AiFillCode } from "react-icons/ai";
 import { FaHashnode } from "react-icons/fa6";
 import {
   BsGlobe,
-  BsCodeSlash,
-  BsRobot,
   BsFileBarGraph,
   BsGit,
   BsMarkdown,
 } from "react-icons/bs";
-import { GiArchiveResearch, GiArtificialIntelligence } from "react-icons/gi";
-import { FcElectronics } from "react-icons/fc";
+import { GiArtificialIntelligence } from "react-icons/gi";
+
 
 export const links = [
   { text: "Home", path: "/" },
@@ -54,32 +57,32 @@ export const links = [
 
 export const interestsData = [
   {
-    interest: "Software Engineering",
-    icon: BsCodeSlash,
+    interest: "Research Skill",
+    icon: FaChartLine,
   },
   {
-    interest: "Tech Blog",
-    icon: FaHashnode,
+    interest: "Editing",
+    icon: MdEditDocument,
   },
   {
-    interest: "Internet of Things",
-    icon: FcElectronics,
+    interest: "Graphic Designing",
+    icon: SiAdobephotoshop,
   },
   {
-    interest: "Market Research",
-    icon: GiArchiveResearch,
+    interest: "Copywiting",
+    icon: SlSpeech,
   },
   {
-    interest: "Visualization",
+    interest: "Digital Marketing",
     icon: BsFileBarGraph,
   },
   {
-    interest: "Software Development",
+    interest: "Wordpress Management",
     icon: AiFillCode,
   },
   {
-    interest: "Robotics",
-    icon: BsRobot,
+    interest: "Operating SEO Tools",
+    icon: TbSeo,
   },
   {
     interest: "Web Scraping",
