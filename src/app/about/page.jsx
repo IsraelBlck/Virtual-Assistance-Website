@@ -43,23 +43,21 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Vaheed</span>, a passionate
-                  software developer. I specialize in{" "}
-                  <span className="tech">Web Development</span>, crafting
-                  seamless user experiences and robust backend solutions. With a
-                  knack for problem-solving, I thrive on creating elegant code
-                  that makes an impact. I&apos;m always exploring new tools and
-                  techniques to stay at the forefront of the ever-evolving tech
-                  landscape.
+                  I&apos;m <span className="name">Eric</span>, a skilled
+                  Virtual Assistant. I specialize in{" "}
+                  <span className="tech">Virtual Assistant</span>, a skilled Virtual Assistant here to streamline your business operations. 
+                  With expertise in data entry, customer support, and web research,
+                  I excel in handling diverse tasks efficiently. I’m known for my attention to detail, reliability, and quick adaptability. 
+                  Let’s work together to simplify your workload and drive your success!
                 </Text>
                 <br />
                 <Text>
                   📫 Open to collaborations and exciting projects, I&apos;m
-                  eager to connect with fellow developers and tech enthusiasts.
+                  eager to connect with fellow Virtual Assistants and fellow enthusiasts.
                   Let&apos;s build something amazing together!
                 </Text>
                 <Text>
-                  Happy coding! 🖥️
+                  Happy assisting!! 🖥️
                   <br />
                 </Text>
               </Box>
