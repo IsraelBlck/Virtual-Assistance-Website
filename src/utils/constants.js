@@ -11,9 +11,21 @@ import {
   FaLinkedin,
   FaMediumM
 } from "react-icons/fa";
-
+import { BsClipboard2DataFill } from "react-icons/bs";
+import { FaComputer } from "react-icons/fa6";
+import { TiVendorMicrosoft } from "react-icons/ti";
 import { FaXTwitter } from "react-icons/fa6";
-
+import { SiGoogledocs } from "react-icons/si";
+import { RiVerifiedBadgeLine } from "react-icons/ri";
+import { SiGoogleads } from "react-icons/si";
+import { FaBookMedical } from "react-icons/fa";
+import { MdOutlineComment } from "react-icons/md";
+import { SiMicrosoftexcel } from "react-icons/si";
+import { TiMessageTyping } from "react-icons/ti";
+import { SiMicrosoftword } from "react-icons/si";
+import { MdOutlineMarkEmailRead } from "react-icons/md";
+import { RiMapPinTimeFill } from "react-icons/ri";
+import { FcIdea } from "react-icons/fc";
 import {
   TbBrandTypescript,
   TbBrandJavascript,
@@ -108,68 +120,68 @@ export const skillsData = [
     icon: BiLogoJquery,
   },
   {
-    name: "Typescript",
-    icon: TbBrandTypescript,
+    name: "Data Entry",
+    icon: BsClipboard2DataFill,
   },
   {
-    name: "SASS",
-    icon: FaSass,
+    name: "Computer Skills",
+    icon: FaComputer,
   },
   {
-    name: "Bootstrap",
-    icon: TbBrandBootstrap,
+    name: "Microsft Office",
+    icon: TiVendorMicrosoft,
   },
   {
-    name: "C/C++",
-    icon: TbBrandCpp,
+    name: "Google Docs",
+    icon: SiGoogledocs,
   },
   {
-    name: "Python",
-    icon: FaPython,
+    name: "Accuracy Verification",
+    icon: RiVerifiedBadgeLine,
   },
   {
-    name: "ReactJS",
-    icon: FaReact,
+    name: "Lead Generation",
+    icon: SiGoogleads,
   },
   {
-    name: "NextJS",
-    icon: SiNextdotjs,
+    name: "Medical Rewards Software",
+    icon: FaBookMedical,
   },
   {
-    name: "Redux",
-    icon: TbBrandRedux,
+    name: "Commuincation",
+    icon: MdOutlineComment,
   },
   {
-    name: "NodeJs",
-    icon: FaNodeJs,
+    name: "Microsoft Excel",
+    icon: SiMicrosoftexcel,
   },
   {
-    name: "PugJs",
-    icon: SiPug,
+    name: "Typing",
+    icon: TiMessageTyping,
   },
   {
-    name: "Express",
-    icon: SiExpress,
+    name: "Microsoft Word",
+    icon: SiMicrosoftword,
   },
   {
-    name: "Docker",
-    icon: FaDocker,
+    name: "Data Collection",
+    icon: BsClipboard2DataFill,
   },
   {
-    name: "Postgres",
-    icon: BiLogoPostgresql,
+    name: "Data Extraction",
+    icon: BsClipboard2DataFill,
   },
   {
-    name: "Postman",
-    icon: SiPostman,
+    name: "Graphic Designing",
+    icon:  SiAdobephotoshop,
   },
   {
-    name: "Git",
-    icon: BsGit,
+    name: "Email Marketing",
+    icon: MdOutlineMarkEmailRead,
   },
   {
-    name: "Github",
-    icon: FaGithub,
+    name: "Email Designer HTML",
+    icon: FaHtml5,
   },
   {
     name: "ChatGPT",
@@ -180,29 +192,58 @@ export const skillsData = [
     icon: SiGnubash,
   },
   {
-    name: "Markdown",
-    icon: BsMarkdown,
+    name: "Time Management",
+    icon: RiMapPinTimeFill,
+  },
+  {
+    name: "Crictical Thinking",
+    icon: FcIdea,
   },
 ];
 
 export const workData = [
   {
-    company: "1Digitalstack.ai",
-    designation: "Software Engineer 2",
+    company: "Dynamite Inc",
+    designation: "Virtual Assistant",
     duration: "March 2022 - Present",
-    companyImg: "1ds.jpg",
+    companyImg: "DYNAMITE(1).jpg",
     description: (
       <>
         <ul>
           <li>
-            I work on Reviniti, an analytics product designed for e-commerce
-            players in the bid management domain. Solely migrated the old
-            codebase from a templating engine (PugJS) to React with TypeScript.
+            Provide virtual adminstrative assistance to clients, managing their calendars,
+            scheduling meetings and handling email correspondence.
           </li>
           <li>
-            Engaged in developing new features, refactoring code, enhancing
-            product performance, bug fixes and contributing towards achieving
-            high scalability for the product.
+            Assist clients with docutment preparation, expense tracking, data entry and research,
+            maintaining an accuracy rate of 98%.
+          </li>
+          <li>
+            Efficiently automate tasks using tools like Zapier, Asana and Trello, resulting in a 30% reduction in manual workload.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    company: "Fact.MR",
+    designation: "Remote Administrative Assistant",
+    duration: "Dec 2020 - July 2021",
+    companyImg: "DYNAMITE(1).jpg",
+    description: (
+      <>
+        <ul>
+          <li>
+            Responsibly managed a high-volume email inbox, sorting and prioritizing
+            over 200 daily messages.
+          </li>
+          <li>
+            Successfully scheduled and coordinated over 100 remote meetings per month 
+            for executives and management.
+          </li>
+          <li>
+            Implemented cloud-based file management systems,
+            impoving document accessibility and reducing retrieval time by 25%.
           </li>
         </ul>
       </>
@@ -212,19 +253,21 @@ export const workData = [
     company: "Fact.MR",
     designation: "Associate Consultant Level 01",
     duration: "Dec 2020 - July 2021",
-    companyImg: "fmr.svg",
+    companyImg: "DYNAMITE(1).jpg",
     description: (
       <>
         <ul>
           <li>
-          My main role was to assist business and market research analysts in acquiring and analyzing data.
-          This entailed writing Python scripts to gather data from diverse sources, populating it in Excel,
-          and cleaning the data. Subsequently, I conducted analytics to derive market insights.
+            Responsibly managed a high-volume email inbox, sorting and prioritizing
+            over 200 daily messages.
           </li>
           <li>
-          Expertly estimated market valuations and conducted primary research
-          in collaboration with industry experts to validate data, extract
-          valuable market insights, using Excel and Python.
+            Successfully scheduled and coordinated over 100 remote meetings per month 
+            for executives and management.
+          </li>
+          <li>
+            Implemented cloud-based file management systems,
+            impoving document accessibility and reducing retrieval time by 25%.
           </li>
         </ul>
       </>
